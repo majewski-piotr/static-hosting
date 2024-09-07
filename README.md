@@ -24,8 +24,6 @@ This project automates the deployment of a static website on AWS. It uses the fo
 
 ## Architecture
 
-![Architecture Diagram](https://your-architecture-diagram-url)  <!-- Replace with the actual URL or remove if not applicable -->
-
 1. **S3 Bucket**: Holds the static files.
 2. **CloudFront Distribution**: Distributes the content globally and applies HTTPS using an ACM certificate.
 3. **ACM Certificate**: Provides an SSL/TLS certificate for securing the site.
